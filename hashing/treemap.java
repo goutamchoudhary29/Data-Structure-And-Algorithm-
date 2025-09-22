@@ -1,0 +1,16 @@
+
+//In this tree map are sorted to be print in the sorted in charter not number
+package hashing;
+import java.util.*;
+public class treemap {
+    public static void main(String[] args) {
+        TreeMap<String ,Integer>tm =new TreeMap<>();
+        tm.put("India", 100);
+        tm.put("China", 150);
+        tm.put("US", 50);
+        tm.put("Indonesia", 6);
+
+        System.out.println(tm);
+
+    }
+}
